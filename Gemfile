@@ -12,7 +12,7 @@ gem "ruboty-cron"
 gem "ruboty-delay"
 gem "ruboty-echo"
 
-gem "ruboty-fastly"
+gem "ruboty-fastly", github: 'sorah/ruboty-fastly'
 
 gem "ruboty-google_image"
 gem "ruboty-kujibiki"

@@ -1,4 +1,12 @@
 GIT
+  remote: https://github.com/sorah/ruboty-fastly
+  revision: bcaca343d4178eb4afaccf2d26d1c8236911eef3
+  specs:
+    ruboty-fastly (0.1.1)
+      fastly
+      ruboty
+
+GIT
   remote: https://github.com/sorah/ruboty-fop
   revision: 80c5ef362f3361cec0ac94c5b47cb9ddbe5b9164
   specs:
@@ -73,9 +81,6 @@ GEM
       ruboty
     ruboty-echo (0.1.0)
       ruboty
-    ruboty-fastly (0.1.0)
-      fastly
-      ruboty
     ruboty-google_image (0.1.0)
       faraday
       faraday_middleware
@@ -137,7 +142,7 @@ DEPENDENCIES
   ruboty-cron
   ruboty-delay
   ruboty-echo
-  ruboty-fastly
+  ruboty-fastly!
   ruboty-fop!
   ruboty-google_image
   ruboty-kujibiki
