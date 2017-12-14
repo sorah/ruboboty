@@ -1,0 +1,28 @@
+{
+  "name": "ruboboty",
+  "description": "ruby-lang ruboty bot",
+  "repository": "https://github.com/sorah/ruboboty",
+  "addons": [
+    "heroku-redis:hobby-dev"
+  ]
+  "env": {
+    "RUBOTY_ENV": {
+      "description": "env",
+      "value": "production",
+      "required": false
+    },
+    "FASTLY_API_KEY": {
+      "description": "Fastly API key",
+      "required": true
+    },
+    "SLACK_TOKEN": {
+      "description": "Slack bot token",
+      "required": true
+    },
+    "SLACK_EXPOSE_CHANNEL_NAME": {
+      "description": "SLACK_EXPOSE_CHANNEL_NAME",
+      "value": "1",
+      "required": false
+    }
+  }
+}
