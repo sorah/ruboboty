@@ -4,7 +4,7 @@
   "repository": "https://github.com/sorah/ruboboty",
   "addons": [
     "heroku-redis:hobby-dev"
-  ]
+  ],
   "env": {
     "RUBOTY_ENV": {
       "description": "env",
