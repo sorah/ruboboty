@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+ruby '~> 2.6.6' if ENV['STACK'] || ENV['IS_HEROKU']
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem 'ruboty'
